@@ -5,8 +5,8 @@ function startExercise() {
     // Generar fracciones aleatorias
     numerator1 = Math.floor(Math.random() * 10) + 1;
     numerator2 = Math.floor(Math.random() * 10) + 1;
-    denominator1 = Math.floor(Math.random() * 10) + 2;
-    denominator2 = Math.floor(Math.random() * 10) + 2;
+    denominator1 = Math.floor(Math.random() * 10) + 1;
+    denominator2 = Math.floor(Math.random() * 10) + 1;
 
     // Determinar operación
     operation = Math.random() > 0.5 ? '+' : '-';
