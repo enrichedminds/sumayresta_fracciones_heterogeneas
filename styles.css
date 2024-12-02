@@ -62,6 +62,7 @@ button:hover {
 #fraction-display, #homogeneous-display {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap; /* Permitir que los elementos pasen a la siguiente línea */
     justify-content: center;
     align-items: center;
     gap: 20px;
