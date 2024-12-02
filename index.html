@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma y Resta de Fracciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Suma y Resta de Fracciones Heterogéneas</h1>
+        <div id="exercise-container">
+            <div id="fraction-display"></div>
+            <div id="question">
+                <p id="current-question">¿Cuál es el mínimo común múltiplo (MCM) de los denominadores?</p>
+                <div id="input-container">
+                    <input type="number" id="user-input" placeholder="Ingresa el MCM">
+                    <button onclick="checkAnswer()">Verificar</button>
+                </div>
+            </div>
+            <div id="feedback"></div>
+            <div id="homogeneous-display"></div>
+        </div>
+        <button id="reset-btn" onclick="startExercise()">Nueva Operación</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
