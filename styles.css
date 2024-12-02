@@ -87,6 +87,11 @@ button:hover {
     display: block;
 }
 
+.fraction.long .numerator {
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
 .operation {
     font-size: 24px;
     line-height: 1;
@@ -94,4 +99,35 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Sangría para pasos posteriores */
+.indented {
+    margin-left: 20px;
+}
+
+/* Ajustes para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    #fraction-display, #homogeneous-display {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .fraction-container {
+        width: 100%;
+    }
+
+    .fraction {
+        width: 100%;
+    }
+
+    .fraction.long .numerator {
+        font-size: 16px;
+    }
+
+    .operation {
+        margin: 10px 0;
+    }
 }
