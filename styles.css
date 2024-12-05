@@ -34,7 +34,7 @@ input {
 button {
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #007BFF;
+    background-color: #5ea7bb;
     color: white;
     border: none;
     border-radius: 5px;
@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #66929d;
 }
 
 #feedback {
